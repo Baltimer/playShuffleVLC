@@ -11,6 +11,12 @@ def imprimirCancionesReproducidas(playList):
                 print (valor, playList[valor])
                 numeroCancion+=1
 
+#VERSION 2 de la funcion mas optimizada:
+def imprimirCancionesReproducidas(playList):
+    for k,v in playList.items():
+        print ("%s -> %s" %(k,v))
+
+
 
 #CASOS TEST#
 test = {2: "soy la cancion numero 2",
